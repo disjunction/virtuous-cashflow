@@ -1,5 +1,4 @@
 import pandas as pd
-from numpy import npv
 
 class FinancialModel:
     def __init__(self,

@@ -2,19 +2,18 @@
 
 ## Installation
 
-1. Setup and activate virtual environment
-
-2. Install requirements
+1. Setup and activate virtual environment.
+2. Install requirements:
 
 ```bash
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 3. Open the project in an IDE, e.g. in VisualStudio Code and use the same
-virtual environment as the Python environment
+virtual environment as the Python environment.
 
 4. When running Jupyter install the needed dependencies.
-They are not part of `requirements.txt`
+They are not part of `requirements.txt`.
 
 
 ## Project description
@@ -45,8 +44,12 @@ In `notebooks/one-year.ipynb` show the **financial** time series as a **stacked 
 
 ### Task 2
 
-In `notebooks/cashflow.ipynb` show the cashflow calculated for the next 20 years
-(Currently there is only an example based on some hard coded values)
+In `notebooks/cashflow.ipynb` calculate and visualize a cashflow for 20 years.
+Cashflow is a bar chart with X-axis having years and each bar representing a total of
+cleaning cost, maintenance cost and revenue for entire year.
+
+The notebook has a sample visualization with the fake data, that can be replaced
+with the real one.
 
 ### Task 3
 
