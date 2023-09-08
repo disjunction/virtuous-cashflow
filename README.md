@@ -37,7 +37,8 @@ You can change any code - both in notebooks or in models.
 
 ### Task 1
 
-In `notebooks/one-year.ipynb` show the **financial** time series as a **stacked bar chart**
+In `notebooks/one-year.ipynb` show the **financial** time series
+(cleaning cost, maintenance cost and revenue) as a **stacked bar chart**
 - costs are expected to be shown as negatives, revenues as positives
 - X-axis should show months
 - Y-axis should show money in EUR
